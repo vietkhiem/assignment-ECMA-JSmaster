@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+nav{
+  @apply bg-[#cb7801];
+}
+.menu{
+  @apply flex space-x-4
+}
+.menu-item__link{
+  @apply block px-4 py-3 text-white hover:bg-indigo-500
+}
